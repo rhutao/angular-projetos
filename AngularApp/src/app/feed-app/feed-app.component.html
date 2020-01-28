@@ -1,0 +1,40 @@
+<!-- <div class="container-cards">
+    <div class="card-partida" *ngFor="let partida of listaGames[0]">
+        <div class="partida-header">
+            <div class="champ-foto">
+                <img src="../../assets/img/tryndamere-icon.png" class="img-champ">
+            </div>
+        </div>
+        <div class="partida-info">
+            <p class="partida-text"><b>Champion:</b> {{partida.gameId}}</p>
+            <p class="partida-text"><b>Champion:</b> {{partida.champ}}</p>
+            <p class="partida-text"><b>KDA:</b> {{partida.kda}}</p>
+            <p class="partida-text"><b>CS:</b> {{partida.cs}}</p>
+            <p class="partida-text"><b>Duração:</b> {{partida.duracao}}</p>
+            <p class="partida-text"><b>Dano:</b> {{partida.dano}}</p>
+        </div>
+    </div>
+</div> -->
+
+<div class="container-cards">
+    <div class="card-partida" *ngFor="let i = index;let partida of salvaInfos[0]">
+        <!-- <div class="card-partida"> -->
+        <div class="partida-header">
+            <div class="champ-foto">
+                <img src="../../assets/img/tryndamere-icon.png" class="img-champ">
+            </div>
+        </div>
+        <div class="partida-info">
+            <p class="partida-text"><b>Champion:</b> Tryndamere </p>
+            <p class="partida-text"><b>KDA:</b> {{salvaInfos[0][i]}} </p>
+            <p class="partida-text"><b>Resultado:</b> {{salvaInfos[1][i]}} </p>
+            <p class="partida-text"><b>CS:</b> {{salvaInfos[2][i]}} </p>
+            <p class="partida-text"><b>Queue:</b> {{salvaInfos[3][i]}} </p>
+            <!-- <p class="partida-text"><b>Champion:</b> Tryndamere </p>
+            <p class="partida-text"><b>KDA:</b> 0/0/0 </p>
+            <p class="partida-text"><b>Resultado:</b> X </p>
+            <p class="partida-text"><b>CS:</b> X </p>
+            <p class="partida-text"><b>Queue:</b> X </p> -->
+        </div>
+    </div>
+</div>

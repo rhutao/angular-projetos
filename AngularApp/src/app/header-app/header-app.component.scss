@@ -1,0 +1,46 @@
+/* Resets */
+html, body {
+	margin: 0 !important;
+	padding: 0 !important;
+    border: 0 !important;
+}
+
+.header-app {
+    height: 70px;
+    background-color: #3c3c3c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 23px;
+
+    .logo-header {
+        width: 70px;
+        height: 70px;
+    }
+
+    .menu-header {
+        display: flex;
+        justify-content:  space-around;
+        width: 350px;
+
+        .link-header {
+            width: 80px;
+            text-align: center;
+            font-size: 17px;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            color: #787878;
+            text-decoration: none;
+        }
+        
+        .link-header:hover {
+            color: #969696;
+        }
+        
+        .link-header:active {
+            color: #c1c1c1;
+        }
+
+
+    }
+}

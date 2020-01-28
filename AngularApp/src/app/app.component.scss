@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+	display: flex !important;
+}
+
+app-feed-app {
+	display: flex;
+	justify-content: center;
+}
