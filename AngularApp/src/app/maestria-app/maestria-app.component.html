@@ -1,1 +1,39 @@
-<p>maestria-app works!</p>
+<ngx-spinner></ngx-spinner>
+<div class="main-container">
+    <div class="card-maestria-background">
+        <div class="card-shadow"></div>
+        <img src="../../assets/img/card-tryndamere.png" class="card-background">
+        <div class="card-content-container">
+            <div class="title-subtitle-container">
+                <p class="card-title">TRYNDAMERE</p>
+                <p class="card-subtitle">THE BARBARIAN KING</p>
+            </div>
+            <div class="card-text-container">
+                <p class="card-text-1">
+                    Fueled by unbridled fury and rage, Tryndamere once carved his way through the Freljord, openly challenging the greatest
+                    warriors of the north to prepare himself for even darker days ahead. The wrathful barbarian has long sought revenge for 
+                    the annihilation of his clan, though more recently he has found companionship with Ashe, the Avarosan warmother, and a home with
+                    her people. His almost inhuman strength and fortitude is legendary, and has delivered him and his new allies countless victories 
+                    against the greatest of odds.
+                </p>
+            </div>
+
+            <div class="content-footer">
+                <div class="kda-container">
+                    <p class="kda-text">{{mediaKill}}/{{mediaDeath}}/{{mediaAssist}}</p>
+                    <p class="kda-title">KDA</p>
+                </div>
+                <div class="line"></div>
+                <div class="cs-container">
+                    <p class="cs-text">{{mediaCs}}</p>
+                    <p class="cs-title">CS</p>
+                </div>
+                <div class="line"></div>
+                <div class="mastery-container">
+                    <p class="mastery-text">{{qntMasteryFormat}}</p>
+                    <p class="mastery-title">MASTERY</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
