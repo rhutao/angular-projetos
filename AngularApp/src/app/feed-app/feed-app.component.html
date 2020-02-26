@@ -18,7 +18,6 @@
 <ngx-spinner></ngx-spinner>
 <div class="container-cards">
     <div class="card-partida" *ngFor="let i = index;let partida of salvaInfos[0]">
-        <!-- <div class="card-partida"> -->
         <div class="partida-header">
             <div class="champ-foto">
                 <img src="../../assets/img/tryndamere-icon.png" class="img-champ">
@@ -30,11 +29,6 @@
             <p class="partida-text"><b>Resultado:</b> {{salvaInfos[1][i]}} </p>
             <p class="partida-text"><b>CS:</b> {{salvaInfos[2][i]}} </p>
             <p class="partida-text"><b>Queue:</b> {{salvaInfos[3][i]}} </p>
-            <!-- <p class="partida-text"><b>Champion:</b> Tryndamere </p>
-            <p class="partida-text"><b>KDA:</b> 0/0/0 </p>
-            <p class="partida-text"><b>Resultado:</b> X </p>
-            <p class="partida-text"><b>CS:</b> X </p>
-            <p class="partida-text"><b>Queue:</b> X </p> -->
         </div>
     </div>
 </div>
